@@ -20,3 +20,18 @@ else:
 year_service = ('1937')
 print("Frirs service of "+ info_0['first_name']+ "was in "
       +str(year_service) +" in state of "+ info_0['first_preaching']+".")
+#Exercise 6-2
+numbers = {'Denis':'7',
+           'Jessica':'23',
+           'Alex':'5',
+           'Vadeam':'15',
+           'Rita':'10'
+           }
+print(numbers)
+numbers['Jane']='17'
+print(numbers)
+del numbers['Denis']
+print(numbers)
+print("Favorite number of Vadeam is "+ numbers['vadeam'.title()]+".")
+number = numbers['Rita']
+print(" Favorite number of Rita is " + str(number.upper())+".")
