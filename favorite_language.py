@@ -9,3 +9,7 @@ print("Sarah's favorite language is "+
       favorite_languages['sarah'].title()+".")
 language = favorite_languages['sarah'].title()
 print(f"Sarah's favorite language is " +str(language)+".")
+
+for key,value in favorite_languages.items():
+    print("\nKey:"+key)
+    print("Value:"+value)
