@@ -30,3 +30,14 @@ for name in favorite_languages.keys():
               favorite_languages[name].title()+"!")
 if 'erin' not in favorite_languages.keys():
     print("Erin, please take our poll!")
+# Recieving keys in order
+for name in sorted(favorite_languages.keys()):
+    print(name.title()+ ",thank you for taking the poll")
+#Recieving value without keys
+print("The following languages have been mantioned:")
+for language in favorite_languages.values():
+    print(language.title())
+
+print("The following languages have been mentioned:")
+for language in set(favorite_languages.values()):
+    print(language.title())
