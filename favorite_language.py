@@ -38,6 +38,18 @@ print("The following languages have been mantioned:")
 for language in favorite_languages.values():
     print(language.title())
 
+#Nesting multiple lists into dictionary
+# Putting two list values into dictionary
+favorite_languages = {
+    'jen':['python', 'rust'],
+    'sarah':['c'],
+    'edward':['rust','go'],
+    'phil':['python','haskel'],
+}
+for name,languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
 print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
