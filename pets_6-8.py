@@ -30,6 +30,9 @@ for pet,pets_info in pets.items():
 print("Well done , exercise 6-8 is done")
 
 
+
+
+
 #Exercise 6-9
 friends = {
     'friend':{
@@ -88,3 +91,51 @@ for info,cities in cities.items():
     print(f"\tLocation in: {cities['country']},\n"
           f"\tPopulation:{cities['population']}\n"
           f"\tFun fact about this city: {cities['fun fact']}")
+
+#Exercise 6-12people = {
+people ={
+    'lsumrall':{
+        'first':'lester',
+        'last':'sumrall',
+        'born':'lousiana',
+        'job':'preacher',
+        'location':'pensecola',
+    },
+    'ccarnegy':{
+        'first':'dale',
+        'last':'carnegy',
+        'born':'new york',
+        'job':'eunterprenuer',
+        'location':'penselvania',
+    },
+}
+#Adding new key,value(manualy)
+people['lsumrall']['wife'] = 'louise layman'
+people['ccarnegy']['wife']='louise whitfield'
+#Adding new kay,value in both dict
+key = 'nation'
+value = 'american'
+#changing value
+people['lsumrall']['job']='evengalist'
+
+for inner_dict in people.values():
+    inner_dict[key] = value
+    print(people)
+for username,user_info in people.items():
+    print(f"\nUsername :{username}")
+    full_name_nation = f"{user_info['first']} {user_info['last']} {user_info['nation']}"
+    born_job = f"{user_info['born']+":"} {user_info['job']}"
+    location = user_info['location']
+    print(f"\tFull name and nation:{full_name_nation.title()}")
+    print(f"\tWife : {user_info['wife'].title()}")
+    print(f"\tBorn and job:{born_job.title()}")
+    print(f"\tLocation:{location.title()}")
+#del key
+del people['ccarnegy']['wife']
+print(people['ccarnegy'])
+#pop key
+people['lsumrall'] .pop('born')
+print(people['lsumrall'])
+
+
+    
