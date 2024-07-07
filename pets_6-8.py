@@ -51,3 +51,14 @@ for user,friends in friends.items():
     favorite_places = f"{friends['first']+":"}{friends['second']+":"}{friends['third']}"
     print(f"\t Favorite places:{favorite_places.title()} ")
 
+#Exercise 6-10
+numbers = {'Denis':['7','12'],
+           'Jessica':['23','17'],
+           'Alex':['5','23'],
+           'Vadeam':['15','55'],
+           'Rita':['10','100'],
+           }
+for user,numbers in numbers.items():
+    print(f"\nUser name is:{user.upper()} and favorite numbers are:")
+    for number in numbers:
+        print(f"\t{number.title()}")
