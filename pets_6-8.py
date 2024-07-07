@@ -27,4 +27,4 @@ for pet,pets_info in pets.items():
     print(f"\tName and age of animal :{name_age.title()}")
     print(f"\tOwner is : {owner.title()}")
     print(f"\tLocation is :{location.title()}")
-
+print("Well done , exercise 6-8 is done")
