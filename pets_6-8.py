@@ -136,6 +136,8 @@ print(people['ccarnegy'])
 #pop key
 people['lsumrall'] .pop('born')
 print(people['lsumrall'])
-
+#changing value in dict
+people['ccarnegy']['born']='tennesy'
+print(people['ccarnegy'])
 
     
