@@ -62,3 +62,29 @@ for user,numbers in numbers.items():
     print(f"\nUser name is:{user.upper()} and favorite numbers are:")
     for number in numbers:
         print(f"\t{number.title()}")
+
+
+#Exercise 6-11
+cities = {
+    'los angeles':{
+        'country':'america/usa',
+        'population':'10 million',
+        'fun fact':'gta 5 was in LA',
+    },
+    'bishkek':{
+        'country':'kyrgyzstan',
+        'population':'1.5 million',
+        'fun fact':'previous name is Frunze',
+
+    },
+    'Seattle':{
+        'country':'USA',
+        'population':'3.4 million',
+        'fun fact':'Homeland of Microsoft',
+    },
+}    
+for info,cities in cities.items():
+    print(f"\nName of city:{info.upper()}")
+    print(f"\tLocation in: {cities['country']},\n"
+          f"\tPopulation:{cities['population']}\n"
+          f"\tFun fact about this city: {cities['fun fact']}")
