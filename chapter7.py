@@ -13,3 +13,12 @@ print(f"\nHello, {name}!")
 How old are you? 21
 >>> age
 '21'
+#Above Python interprets everything as a string and if we want work only with number we will get type error
+#Example below 
+>>> age = ("How old are you? ")
+>>> 21
+21
+>>> age >= 18
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '>=' not supported between instances of 'str' and 'int'
