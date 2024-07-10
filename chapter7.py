@@ -57,3 +57,12 @@ if lobby <=8:
     print("Your table is ready!")
 else:
     print("You have to wait for the table")    
+
+#Exercise 7-3 Multiple of 10
+ #Exercise 7-3
+number = int(input("Enter your number and we will show you if it multiple of 10: "))
+if number % 10 == 0:
+    print("Your number is multiple of 10")
+else:
+    print("Not multiple of 10")
+
