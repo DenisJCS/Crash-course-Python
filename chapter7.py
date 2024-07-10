@@ -7,3 +7,9 @@ prompt += ("\nWhat is your first name?")
 
 name = input(prompt)
 print(f"\nHello, {name}!")
+
+#Using int()
+>>> age = input("How old are you? ")
+How old are you? 21
+>>> age
+'21'
