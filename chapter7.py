@@ -48,3 +48,12 @@ if car in car_list:
     print(f"We can provide you with a {car} car !")
 else:
     print(f"We don't have this {car} car, please choose other.")
+
+#Exercise 7-2
+#Restaurant
+lobby = input("How many people are in your group? ")
+lobby = int(lobby)
+if lobby <=8:
+    print("Your table is ready!")
+else:
+    print("You have to wait for the table")    
