@@ -40,3 +40,11 @@ if height >=48:
 else:
     print("\nYou'll be able to ride, when you're a little older.")
         
+#Exercise 7-1
+car = input("What kind of car would you like to rent? ")
+car_list = ['subaru', 'toyota','mercedes']
+
+if car in car_list:
+    print(f"We can provide you with a {car} car !")
+else:
+    print(f"We don't have this {car} car, please choose other.")
