@@ -76,6 +76,18 @@ message = ""
 while message !='quit':
     message = input(prompt)
     print(message)
+    if message != 'quit':
+      print(message)
 
+Tell me something, I will repeat it back to you: 
+Enter 'quit' to end the program. yes
+yes
 
+Tell me something, I will repeat it back to you: 
+Enter 'quit' to end the program. Hello, Deni!
+Hello, Deni!
+
+Tell me something, I will repeat it back to you: 
+Enter 'quit' to end the program. quit
+quit
 
