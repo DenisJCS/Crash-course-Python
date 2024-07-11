@@ -66,3 +66,16 @@ if number % 10 == 0:
 else:
     print("Not multiple of 10")
 
+
+#Using (while) loop to run program till the condition is true
+#Parrot
+prompt = "\nTell me something, I will repeat it back to you: "
+prompt += "\nEnter 'quit' to end the program. "
+
+message = ""
+while message !='quit':
+    message = input(prompt)
+    print(message)
+
+
+
