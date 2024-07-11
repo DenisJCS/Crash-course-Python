@@ -30,6 +30,28 @@ How old are you? 21
 True
 >>> 
 
+#Using break to Exit a loop:
+#Cities
+prompt = "\nPlease enter the name of a city you have visited: "
+prompt += "\n(Enter 'quit' when you are finished.)"
+
+while True:
+    city = input(prompt)
+    if city == 'quit':
+        break
+    else:
+        print(f"I'd love to go to {city.title()}")
+Please enter the name of a city you have visited: 
+(Enter 'quit' when you are finished.)Los Angeles
+I'd love to go to Los Angeles
+
+Please enter the name of a city you have visited: 
+(Enter 'quit' when you are finished.)New York
+I'd love to go to New York
+
+Please enter the name of a city you have visited: 
+(Enter 'quit' when you are finished.)quit
+
 
 rollecoaster.py
 height = input("How tall are you, in inches? ")
