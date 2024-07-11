@@ -91,3 +91,17 @@ Tell me something, I will repeat it back to you:
 Enter 'quit' to end the program. quit
 quit
 
+#Using a Flag to while loop , so it can react more events in program 
+#Parrot
+prompt = "\nTell me something, I will repeat it back to you: "
+prompt += "\nEnter 'quit' to end the program. "
+
+active = True
+while active:
+    message = input(prompt)
+    if message == 'quit':
+        active = False
+    else:
+        print(message)
+            
+
