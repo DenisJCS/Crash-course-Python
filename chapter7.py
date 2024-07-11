@@ -138,3 +138,8 @@ while current_number <10 :
   5
   7
   9
+Avoiding Infinite Loop
+x = 1
+while x <= 5:
+    print(x)
+    x +=1 #If omit this line, the loop will run forever
