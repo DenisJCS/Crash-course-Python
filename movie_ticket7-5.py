@@ -1,3 +1,5 @@
+#This code receives age(number) and according that gives price for movie ticket
+
 active  = True
 while active:
     age_input = input("Please enter your age and we will count the cost (or enter 'quit' to stop): ")
