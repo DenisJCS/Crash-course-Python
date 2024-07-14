@@ -16,4 +16,20 @@ while polling_active:
 print("\n ---Poll Resuld ---")
 for name,response in responses.items():
     print(f"{name} would like tp climb {response}. ")
-    
+
+denis_jcs@Deniss-MacBook-Air Chapter7 % python3 mountain_poll.py
+
+What is your name? Denis
+Which mountain would you like to climb someday? Everest
+Would you like to let  another person respond ? (yes/no)? yes
+
+What is your name? Brian
+Which mountain would you like to climb someday? Ganalulu
+Would you like to let  another person respond ? (yes/no)? no
+
+ ---Poll Resuld ---
+Denis would like tp climb Everest. 
+Brian would like tp climb Ganalulu. 
+denis_jcs@Deniss-MacBook-Air Chapter7 % 
+
+
